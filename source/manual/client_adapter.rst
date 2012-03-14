@@ -99,7 +99,7 @@ Initialization
 
 3. The server closes the TCP/IP connection.
 4. The client must verify that the protocol version is compatible. If it is
-   compatible, initializatin is successful.
+   compatible, initialization is successful.
    
 
 Connection
@@ -248,7 +248,7 @@ Example:
 
 Implementers of client libraries are encouraged to provide the following:
 
-- a *timed read* procedure that respect a timeout
+- a *timed read* procedure that respects a timeout
 - a *batch read* procedure that returns all events that arrive within a
   specified time interval.
 
